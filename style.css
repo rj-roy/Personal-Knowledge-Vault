@@ -1,35 +1,40 @@
-body{
+body {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-header{
+header {
     padding: 20px 5px 0;
     background: #ffffff;
     display: flex;
     justify-content: space-between;
 }
 
-.menu{
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu {
     display: flex;
     list-style: none;
     gap: 15px;
     font-size: 16px;
 }
 
-.menu a:hover{
-    color:#30B868;
+.menu a:hover {
+    color: #30B868;
     font-weight: bold;
     transition-duration: 500ms;
 }
 
-.menu a{
+.menu a {
     color: #000;
     text-decoration: none;
     font-weight: bold;
 }
 
-.menu-button{
+.menu-button {
     color: white;
     background-color: #30B868;
     border: none;
@@ -37,30 +42,30 @@ header{
     padding: 12px 16px;
 }
 
-.menu-button:hover{
+.menu-button:hover {
     background-color: #0cee6a;
     transition-duration: 500ms;
 }
 
-main{
+main {
     padding: 0 0 0 0;
 }
 
-.hero-sec{
+.hero-sec {
     background-image: url(assets/hero-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.left-anim{
-    background: radial-gradient(circle,  #4f8f6b 0%, #4f8f6b 25%, #a8cbb8 25%, #a8cbb8 55%, #e3efe8 55%, #e3efe8 100%);
+.left-anim {
+    background: radial-gradient(circle, #4f8f6b 0%, #4f8f6b 25%, #a8cbb8 25%, #a8cbb8 55%, #e3efe8 55%, #e3efe8 100%);
     border-radius: 50%;
     width: 30px;
     height: 30px;
 }
 
-.hero-sec{
+.hero-sec {
     display: flex;
     flex-direction: column;
     min-height: 600px;
@@ -69,7 +74,7 @@ main{
     justify-content: center;
 }
 
-.top{
+.top {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,33 +86,29 @@ main{
     gap: 4px;
 }
 
-.top h3{
+.top h3 {
     font-size: 16px;
     font-weight: 500;
 }
 
-.middle{
+.middle {
     color: #ffffff;
 }
 
-.middle h1{
+.middle h1 {
     font-size: 72px;
 }
 
-.middle span{
+.middle span {
     color: #30B868;
 }
 
-.middle p{
-    font-size: 18px;
-}
-
-.bottom{
+.bottom {
     display: flex;
     gap: 20px;
 }
 
-.left-button{
+.left-button {
     display: flex;
     background-color: #30B868;
     border-radius: 4px;
@@ -116,17 +117,17 @@ main{
     gap: 5px;
 }
 
-.left-button:hover{
+.left-button:hover {
     background-color: #0cee6a;
     transition-duration: 500ms;
 }
 
-.left-button a{
+.left-button a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.right-button{
+.right-button {
     background-color: transparent;
     border: 3px solid #e61708;
     border-radius: 4px;
@@ -137,45 +138,43 @@ main{
 }
 
 
-.right-button a{
+.right-button a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.right-button:hover{
+.right-button:hover {
     background-color: #e61708;
     transition-duration: 500ms;
 }
 
-.about{
+.about {
     padding: 0 15px;
 }
 
-.a-top{
-    padding-bottom:30px ;
+.a-top {
+    padding-bottom: 30px;
 }
 
-.a-top h2{
+.a-top h2 {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
 }
 
-.a-top p{
+.a-top p {
     margin-top: -30px;
     text-align: center;
-    font-size: 16px;
-    font-weight: 400;
 }
 
-.cards{
+.cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     gap: 15px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,11 +186,11 @@ main{
     transition-duration: 500ms;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 0px 5px 20px #a8cbb8;
 }
 
-.cards-circle{
+.cards-circle {
     border-radius: 50%;
     display: grid;
     place-items: center;
@@ -200,16 +199,48 @@ main{
     background-color: #e61708;
 }
 
-.card h3{
+.card h3 {
     margin-top: 15px;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
 }
 
-.card p{
+.card p {
     margin-top: -10px;
-    font-size: 16px;
-    font-weight: 400;
     text-align: center;
+}
+
+.knowledge{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 15px;
+}
+
+.kn-left,
+.kn-right{
+    flex: 1;
+}
+
+.kn-right h4{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.kn-right h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: -2px;
+}
+
+.kn-list{
+    list-style-image: url(assets/CheckCircle.png);
+}
+
+.kn-list li{
+    font-size: 17px;
+    font-weight: bold;
 }
