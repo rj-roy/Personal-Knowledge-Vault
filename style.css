@@ -252,6 +252,8 @@ main {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 150px;
+    border-radius: 20px;
 }
 
 .second-brain h2{
@@ -280,4 +282,34 @@ main {
     text-decoration: none;
     text-align: center;
     color: white;
+}
+
+.footer{
+    background-color: #001931;
+}
+
+.f-top-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 100px 200px;
+    color: #ffffff;
+}
+
+.copyright{
+    text-align: center;
+    border-top: 1px solid rgb(74, 44, 182);
+    padding: 10px 15px;
+    color: #ffffff;
+}
+
+.footer-icon{
+    margin-top: -15px;
+}
+
+.footer-icon img{
+    filter: grayscale(100%);
+    width: 20px;
+    height: 20px;
 }
